@@ -70,7 +70,7 @@ while running:
 
     # Получаем прямоугольник текста и устанавливаем его в центр
     text_rect = point_text.get_rect(center=(400, 300))
-    
+
     # Отображаем текст на экране
     screen.blit(point_text, text_rect)
 
